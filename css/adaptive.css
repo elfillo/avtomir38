@@ -1,0 +1,311 @@
+/* haeder */
+@media screen and (max-width: 1380px){
+    .products__item{
+        width: 250px;
+    }
+    .products__img{
+        height: 250px;
+    }
+    .product__description{
+        min-height: 38px;
+    }
+}
+@media screen and (max-width: 1200px){
+    .menu{
+        width: 500px;
+    }
+}
+@media screen and (max-width: 940px){
+    .tel,
+    .menu{
+        display: none;
+    }
+    .burger{
+        display: block;
+    }
+    .about-main__img{
+        display: none;
+    }
+}
+@media screen and (max-width: 460px){
+    .header {
+        margin-bottom: 20px;
+    }
+}
+/* slider */
+@media screen and (max-width: 1100px){
+    .swiper-slide-wr__title{
+        font-size: 30px;
+    }
+    .swiper-slide-wr__interior{
+        flex-direction: column;
+        align-items: center;
+    }
+    .swiper-slide-wr__interior-text__subtitle{
+        margin-top: 25px;
+    }
+}
+@media screen and (max-width: 700px){
+    .swiper-slide-wr__interior-text__subtitle,
+    .swiper-slide-wr__interior-text__description{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .swiper-slide-wr__button{
+        margin: 0 auto;
+    }
+    .swiper-button-prev,
+    .swiper-button-next{
+        top: 35%;
+    }
+}
+@media screen and (max-width: 460px){
+    .swiper-slide-wr__interior-img{
+        width: 80%;
+        margin: 0 auto;
+    }
+    .button{
+        width: 100%;
+    }
+}
+/* section about-main */
+@media screen and (max-width: 1500px){
+    .about-main{
+        border-left: none;
+    }
+}
+@media screen and (max-width: 1100px){
+    .about-main__img{
+        width: 50%;
+        right: 0;
+    }
+}
+@media screen and (max-width: 780px){
+    .about-main,
+    .about-main__img{
+        position: inherit;
+    }
+    .about-main{
+        flex-direction: column;
+    }
+    .about-main__img{
+        width: 80%;
+    }
+}
+@media screen and (max-width: 460px){
+    .about-main__text,
+    .about-main__img{
+        width: 95%;
+    }
+}
+/* calculator-main */
+@media screen and (max-width: 1000px){
+    .calculator-main > .inside-wr{
+        flex-direction: column;
+    }
+    .calculator,
+    .result_of_calc,
+    .call_back{
+       margin: auto;
+       margin-bottom: 15px;
+       width: 300px;
+    }
+}
+@media screen and (max-width: 420px){
+    .result_of_calc__button{
+        width: 300px;
+    }
+    .calculator-main{
+        margin-bottom: 25px;
+    }
+}
+/* slider2 */
+@media screen and (max-width: 420px){
+    .slider2 .swiper-button-next,
+    .slider2 .swiper-button-prev{
+        top: 20%;
+    }
+}
+/* whyWe__item */
+@media screen and (max-width: 1000px){
+    .whyWe__item{
+        padding: 20px 5px;
+    }
+}
+@media screen and (max-width: 700px){
+    .whyWe-wr{
+        flex-direction: column;
+    }
+    .whyWe__item{
+        margin: 0 auto;
+        width: 70%;
+        border: none;
+    }
+    .whyWe__item:last-child{
+        border: none;
+    }
+    .whyWe{
+        margin-bottom: 25px;
+    }
+}
+
+/*Страница о компании*/
+
+@media screen and (max-width: 940px){
+    .about-company-wr{
+        flex-direction: column;
+    }
+    .about-company__mission,
+    .about-company__legal_entity{
+        border-left: none;
+    }
+    .about-company__legal_entity{
+        margin-left: 0;
+    }
+}
+@media screen and (max-width: 440px){
+    .about-company__mission p, 
+    .about-company__legal_entity p{
+        width: 95%;
+        margin-left: 0;
+    }
+}
+/*reliability*/
+@media screen and (max-width: 720px){
+    .reliability{
+        height: 252px;
+    }
+}
+@media screen and (max-width: 520px){
+    .reliability{
+        height: 142px;
+        background-size: 255%;
+    }
+    .reliability__title{
+        width: 90%;
+        text-align: center;
+    }
+    .reliability{
+        margin-bottom: 25px;
+    }
+
+}
+/* footer */
+@media screen and (max-width: 920px){
+    .footer-wr{
+        flex-direction: column;
+    }
+    .map{
+        width: 100%;
+    }
+    .footer__contacts{
+        margin: 0 auto;
+    }
+    .call_back__footer{
+        margin-left: 0;
+        margin-bottom: 25px;
+    }
+}
+@media screen and (max-width: 420px){
+    .footer__contacts{
+        width: 100%;
+    }
+}
+
+/*sales*/
+@media screen and (max-width: 1360px){
+    .sales_pic__text{
+        padding-left: 0;
+        padding-right: 50px;
+    }
+    .sales_pic{
+        justify-content: flex-end;
+        
+    }
+}
+@media screen and (max-width: 960px){
+    .sales_pic__text{
+        background-color: rgba(255, 255, 255, 0.8);
+        padding-right: 0;
+    }
+    .sales_pic{
+        justify-content: center;
+    }
+}
+@media screen and (max-width: 440px){
+    .sales_pic__text{
+        width: 90%;
+    }
+}
+/*catalog*/
+@media screen and (max-width: 920px){
+    .catalog-wr{
+        display: flex;
+        flex-direction: column;
+        margin-bottom: 50px;
+    }
+    .products-wr{
+        justify-content: center;
+    }
+    .catalog__menu{
+        padding-top: 0;
+    }
+    .catalog__title{
+        margin-bottom: 10px;
+        margin-top: -25px;
+    }
+}
+
+/*modal window*/
+@media screen and (max-width: 600px){
+    .modal_window{
+        width: 90%;
+    }
+    .modal_window_text{
+        width: 95%;
+        margin: 0 auto;
+    }
+    .modal_window__title{
+        font-size: 30px;
+    }
+}
+@media screen and (max-width: 440px){
+    .modal_call-back button{
+        width: 95%;
+    }
+}
+/*quic order*/
+@media screen and (max-width: 440px){
+    .quic_modal{
+        width: 95%;
+    }
+}
+/*woocommerce*/
+/*single product page*/
+@media screen and (max-width: 700px){
+    .woocommerce-message{
+        display: flex;
+        flex-direction: column-reverse;
+        text-align: center;
+    }
+    .woocommerce-message a{
+        margin: auto;
+        margin-top: 15px;
+    }
+    #custom-single{
+        flex-direction: column;
+        align-items: center;
+    }
+    #custom-single .products__item_img{
+        margin-right: 0;
+    }
+}
+@media screen and (max-width: 340px){
+    .woocommerce-message{
+        width: 80%;
+    }
+    .woocommerce-message a{
+        width: 80%;
+    }
+}
