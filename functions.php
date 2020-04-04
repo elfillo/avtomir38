@@ -52,4 +52,6 @@ function manera_single_product_image_end_wrapper(){
     <?php
 }
 
+include 'parts/admin/helpers.php';
+include 'parts/admin/custom_fields.php';
 ?>
